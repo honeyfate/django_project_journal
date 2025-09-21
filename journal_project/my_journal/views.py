@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def journal_list(request):
+    return render(request, 'my_journal/journal_list.html')
